@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="NIF_XML" Type="System.String" Scope="User">
-      <Value Profile="(Default)">C:\Documents and Settings\Owner\Desktop\Coding\nifxml\nif.xml</Value>
+      <Value Profile="(Default)">https://raw.github.com/neomonkeus/nifxml/master/nif.xml</Value>
     </Setting>
   </Settings>
 </SettingsFile>

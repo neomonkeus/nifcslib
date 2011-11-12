@@ -25,7 +25,7 @@ namespace nifcslib.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Documents and Settings\\Owner\\Desktop\\Coding\\nifxml\\nif.xml")]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://raw.github.com/neomonkeus/nifxml/master/nif.xml")]
         public string NIF_XML {
             get {
                 return ((string)(this["NIF_XML"]));
