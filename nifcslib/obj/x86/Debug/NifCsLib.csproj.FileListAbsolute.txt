@@ -1,0 +1,12 @@
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\bin\Debug\nifcslib.exe
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\bin\Debug\nifcslib.pdb
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\obj\x86\Debug\nifcslib.exe
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\obj\x86\Debug\nifcslib.pdb
+C:\Documents and Settings\Owner\my documents\visual studio 2010\Projects\XMLParser\XMLParser\bin\Debug\nifcslib.exe.config
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\XMLParser\nifcslib\bin\Debug\nifcslib.exe.config
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\XMLParser\nifcslib\obj\x86\Debug\nifcslib.exe
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\XMLParser\nifcslib\obj\x86\Debug\nifcslib.pdb
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\NifCSLib\nifcslib\bin\Debug\nifcslib.exe.config
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\NifCSLib\nifcslib\obj\x86\Debug\nifcslib.exe
+C:\Documents and Settings\Owner\My Documents\visual studio 2010\Projects\NifCSLib\nifcslib\obj\x86\Debug\nifcslib.pdb

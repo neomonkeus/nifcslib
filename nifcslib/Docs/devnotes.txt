@@ -1,0 +1,19 @@
+﻿check scanner functionality with elf for Add::array
+check Add:userversion->header.userVersion() generated obj?
+
+Add::ToString() missing variables
+
+Utilies::findEnumType, convention String enumItemtype = enumname; -> "";
+Utilities::findCompound + ::findBitFlag add break in loop for found and comparisions.
+
+Compound::Clone -> addlist new() not needed?
+
+Compound obj Add: arg Array3 missing?
+Nifxmlreader, getcompound arrg3 missing?
+niobject addAdd:: missing args [arr3, vercond]
+
+ReadByteCode::GetTypeCode toStringOffset
+s = "TODO"
+
+-------
+Nif.xml - descriptions needed:  

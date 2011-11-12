@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="nifcslib.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="NIF_XML" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Documents and Settings\Owner\Desktop\Coding\nifxml\nif.xml</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
