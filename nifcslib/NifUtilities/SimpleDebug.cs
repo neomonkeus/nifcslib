@@ -5,47 +5,80 @@ using System.Text;
 using nifcslib.NifTypes;
 using System.Reflection;
 using System.Collections;
+using System.IO;
 
 namespace nifcslib.NifUtilities
 {
     public class SimpleDebug
     {
         #region variable declarations
-        private static int _callcount = 0;
-        private static bool _emptycheck = false;
-        private static bool _containscheck = false;
-        private static string _containsstring = String.Empty;
+        private static int _callcount;
+        private static bool _equalscheck;
+        private static bool _containscheck;
+        private static string _containsstring;
+        private static string _equalsstring;
+        private static Dictionary<string, List<string>> lists;
         #endregion
 
         #region Function Declarations
-        public static void PerformChecks()
+        
+        public SimpleDebug()
         {
-            Dictionary<string, List<string>> lists = new Dictionary<string, List<string>>();
+            _callcount = 0;
+            _equalscheck = false;
+            _containscheck = false;
+            _containsstring = String.Empty;
+            _equalsstring = String.Empty;
+            lists = new Dictionary<string, List<string>>();
+        }
+        
+        public void PerformChecks()
+        {
             for (int i = 0; i < 3; i++)
             {
                 switch (i)
                 {
                     case 0:
-                        NifUtilities.SimpleDebug.emptycheck = true;
+                        _equalscheck = true;
+                        _equalsstring = "";
                         lists.Add("Empty", ProcessDebugQuery());
+                        _equalscheck = false;
                         continue;
                     case 1:
-                        NifUtilities.SimpleDebug.emptycheck = false;
-                        NifUtilities.SimpleDebug.containscheck = true;
-                        NifUtilities.SimpleDebug.containsstring = "Unknown";
+                        
+                        _containscheck = true;
+                        _containsstring = "Unknown";
                         lists.Add("Unknown", ProcessDebugQuery());
                         continue;
                     case 2:
-                        NifUtilities.SimpleDebug.containsstring = "?";
-                        lists.Add("?",ProcessDebugQuery());
+                        _containsstring = "?";
+                        lists.Add("Question", ProcessDebugQuery());
                         continue;
                     default:
                         continue;
                 }
             }
+            CreateLogFiles();
         }
 
-        private static List<string> ProcessDebugQuery()
+        private void CreateLogFiles()
+        {
+            List<string> list;
+            foreach(KeyValuePair<string, List<string>> keypairs in lists)
+	        {
+                using (StreamWriter writer = new StreamWriter(".\\" + keypairs.Key + ".txt"))
+                {
+                    list = keypairs.Value.ToList<string>();
+                    for (int i = 0; i < keypairs.Value.Count; i++)
+                    {
+                        writer.Write(list[i].Replace("\n", writer.NewLine.ToString()));
+                        writer.Write(writer.NewLine);
+                    }
+                }
+            }
+        }
+
+        private List<string> ProcessDebugQuery()
         {
             List<string> list = new List<string>();
             list.AddRange(PerformPropertyCheck(NifDataHolder.getInstance().basiclist, "description"));
@@ -59,11 +92,11 @@ namespace nifcslib.NifUtilities
             list.AddRange(PerformOptionPropertyCheck(NifDataHolder.getInstance().compoundlist, "addlist", "description"));
             list.AddRange(PerformOptionPropertyCheck(NifDataHolder.getInstance().enumitemlist, "optionlist", "description"));
             list.AddRange(PerformOptionPropertyCheck(NifDataHolder.getInstance().compoundtemplatelist, "addlist", "description"));
-            Console.WriteLine(NifUtilities.SimpleDebug.callcount);
+            Console.WriteLine(_callcount);
             return list;
         }
         
-        public static List<string> PerformPropertyCheck<T>(Dictionary<string, T> dict, string property)
+        private List<string> PerformPropertyCheck<T>(Dictionary<string, T> dict, string property)
         {
             List<string> list = new List<string>();
             foreach (KeyValuePair<string, T> item in dict)
@@ -79,7 +112,7 @@ namespace nifcslib.NifUtilities
             return list;
         }
 
-        public static List<string> PerformOptionPropertyCheck<T>(Dictionary<string, T> dict, string listname, string property)
+        private List<string> PerformOptionPropertyCheck<T>(Dictionary<string, T> dict, string listname, string property)
         {
             List<string> list = new List<string>();
             foreach (KeyValuePair<string, T> item in dict)
@@ -106,7 +139,7 @@ namespace nifcslib.NifUtilities
             return list;
         }
 
-        private static Object CreateGenericList(Type typeX)
+        private Object CreateGenericList(Type typeX)
         {
             Type listType = typeof(List<>);
             Type[] typeArgs = { typeX };
@@ -119,7 +152,7 @@ namespace nifcslib.NifUtilities
         #endregion
 
         #region Property Accessors
-        public static int callcount
+        public int callcount
         {
             set
             {
@@ -131,7 +164,7 @@ namespace nifcslib.NifUtilities
             }
         }
 
-        public static string containsstring
+        public string containsstring
         {
             set
             {
@@ -144,19 +177,19 @@ namespace nifcslib.NifUtilities
             }
         }
 
-        public static bool emptycheck
+        public bool emptycheck
         {
             get
             {
-                return _emptycheck;
+                return _equalscheck;
             }
             set
             {
-                _emptycheck = value;
+                _equalscheck = value;
             }
         }
         
-        public static bool containscheck
+        public bool containscheck
         {
             get
             {
@@ -168,10 +201,10 @@ namespace nifcslib.NifUtilities
             }
         }
 
-        public static bool checkString(string comparison)
+        public bool checkString(string comparison)
         {
-            if(_emptycheck)
-                if(comparison.Trim().Equals(""))
+            if (_equalscheck)
+                if(comparison.Trim().Equals(_equalsstring))
                     return true;
             if (_containscheck)
                 if (comparison.Contains(_containsstring))

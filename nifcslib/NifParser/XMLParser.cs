@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using nifcslib.NifUtilities;
 
 namespace nifcslib
 {
@@ -18,7 +19,8 @@ namespace nifcslib
             _reader.processXml();
             
             #region debug
-            NifUtilities.SimpleDebug.PerformChecks();
+            SimpleDebug debug = new SimpleDebug();
+            debug.PerformChecks();
             Console.ReadKey();
             #endregion
             

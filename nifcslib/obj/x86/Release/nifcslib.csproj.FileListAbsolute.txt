@@ -4,3 +4,9 @@ C:\Documents and Settings\Owner\My Documents\Visual Studio 2010\Projects\XMLPars
 C:\Documents and Settings\Owner\My Documents\Visual Studio 2010\Projects\XMLParser\XMLParser\bin\Release\nifcslib.pdb
 C:\Documents and Settings\Owner\My Documents\Visual Studio 2010\Projects\XMLParser\XMLParser\obj\x86\Release\nifcslib.exe
 C:\Documents and Settings\Owner\My Documents\Visual Studio 2010\Projects\XMLParser\XMLParser\obj\x86\Release\nifcslib.pdb
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\bin\Release\nifcslib.exe.config
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\bin\Release\nifcslib.exe
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\bin\Release\nifcslib.pdb
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\obj\x86\Release\nifcslib.exe
+C:\Documents and Settings\Owner\workspace\nifcslib\nifcslib\obj\x86\Release\nifcslib.pdb
