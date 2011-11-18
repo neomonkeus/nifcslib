@@ -456,24 +456,18 @@ namespace nifcslib.NifTypes
                 {
                     // we hava a bit wise operation, lets equate to not zero for true
                     original = "(" + original + ")!=0";
-                }
+                    return original.Replace("\\?", "TEST");
+                }   
             }
-
             while (bracket != -1)
             {
 
-                if (original.Substring(bracket + 1, bracket + 2).CompareTo("(") == 0)
+                original = original.Substring(0, bracket + 1) + original.Substring(bracket + 1, bracket + 2).ToLower() + original.Substring(bracket + 2);
+                int openBracket = original.IndexOf("(", bracket + 1);
+                int closeBracket = original.IndexOf(")", bracket + 1);
+                
+                if (closeBracket < openBracket || (openBracket == -1 && closeBracket != -1))
                 {
-                    bracket = original.IndexOf("(", bracket + 1);
-                }
-                else
-                {
-                    original = original.Substring(0, bracket + 1) + original.Substring(bracket + 1, bracket + 2).ToLower() + original.Substring(bracket + 2);
-                    int openBracket = original.IndexOf("(", bracket + 1);
-                    int closeBracket = original.IndexOf(")", bracket + 1);
-
-                    if (closeBracket < openBracket || (openBracket == -1 && closeBracket != -1))
-                    {
                         // we are at a root part of the brackets (ie where a boolean expression should be
                         if (original.Substring(bracket + 1, closeBracket).IndexOf('&') != -1 && makebool)
                         {
@@ -483,11 +477,11 @@ namespace nifcslib.NifTypes
                         }
 
                         bracket = original.IndexOf("(", bracket + 1);
-                    }
-                    else
-                    {
-                        bracket = original.IndexOf("(", bracket + 1);
-                    }
+                }
+                else
+                {
+                    bracket = original.IndexOf("(", bracket + 1);
+                    
                 }
 
             }

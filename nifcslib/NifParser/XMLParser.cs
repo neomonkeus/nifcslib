@@ -21,6 +21,7 @@ namespace nifcslib
             #region debug
             SimpleDebug debug = new SimpleDebug();
             debug.PerformChecks();
+            NifDataHolder.getInstance();
             Console.ReadKey();
             #endregion
             
