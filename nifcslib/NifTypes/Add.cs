@@ -89,7 +89,7 @@ namespace nifcslib.NifTypes
             set
             {
                 _originaltype = value;
-                _type = Utilies.convertType(value, template);
+                _type = NifUtilities.Utilities.convertType(value, template);
             }
         }
 
@@ -239,7 +239,7 @@ namespace nifcslib.NifTypes
             }
             set
             {
-                _returntype = Utilies.convertReturnType(value, template, array1.Trim().Length != 0);
+                _returntype = NifUtilities.Utilities.convertReturnType(value, template, array1.Trim().Length != 0);
             }
         }
 
@@ -316,9 +316,9 @@ namespace nifcslib.NifTypes
                         // add 10 to move past the whole text
                         locationVersionGreaterEqual = locationVersionGreaterEqual + 10;
                         int bracket = value.IndexOf(")", locationVersionGreaterEqual);
-                        
-                        value = Utilies.ReplaceFirstOccurance(value, value.Substring(locationVersionGreaterEqual, bracket), "" + versionConvert(value.Substring(locationVersionGreaterEqual, bracket)));
-                        value = Utilies.ReplaceFirstOccurance(value, "Version >=", "int.Parse(header.version) >=");
+
+                        value = NifUtilities.Utilities.ReplaceFirstOccurance(value, value.Substring(locationVersionGreaterEqual, bracket), "" + versionConvert(value.Substring(locationVersionGreaterEqual, bracket)));
+                        value = NifUtilities.Utilities.ReplaceFirstOccurance(value, "Version >=", "int.Parse(header.version) >=");
                         locationVersionGreaterEqual = value.IndexOf("Version >=");
                     }
 
@@ -330,8 +330,8 @@ namespace nifcslib.NifTypes
                         // find the ) then add 10 to move past the whole text
                         locationVersionEqual = locationVersionEqual + 10;
                         int bracket = value.IndexOf(")", locationVersionEqual);
-                        value = Utilies.ReplaceFirstOccurance(value, value.Substring(locationVersionEqual, bracket), "" + versionConvert(value.Substring(locationVersionEqual, bracket)));
-                        value = Utilies.ReplaceFirstOccurance(value, "Version ==", "int.Parse(header.version)) ==");
+                        value = NifUtilities.Utilities.ReplaceFirstOccurance(value, value.Substring(locationVersionEqual, bracket), "" + versionConvert(value.Substring(locationVersionEqual, bracket)));
+                        value = NifUtilities.Utilities.ReplaceFirstOccurance(value, "Version ==", "int.Parse(header.version)) ==");
                         locationVersionEqual = value.IndexOf("Version ==");
                     }
 
@@ -435,62 +435,6 @@ namespace nifcslib.NifTypes
 
             return vers;
         }
-        /*
-        private string findVariableAndConvert(string original, bool makebool)
-        {
-            // this tries to find variables and make them lower case to match the 
-            // way we store variables
-
-            // first remove all the spaces
-            original = original.Replace(" ", "");
-
-            int bracket = original.IndexOf("(");
-
-            if (bracket == -1)
-            {
-                original = original.Substring(0, 1).ToLower() + original.Substring(1);
-                if (original.IndexOf('&') != -1)
-                {
-                    // we hava a bit wise operation, lets equate to not zero for true
-                    original = "(" + original + ")!=0";
-                }
-            }
-
-            while (bracket != -1)
-            {
-
-                if (original.Substring(bracket + 1, bracket + 2).CompareTo("(") == 0)
-                {
-                    bracket = original.IndexOf("(", bracket + 1);
-                }
-                else
-                {
-                    original = original.Substring(0, bracket + 1) + original.Substring(bracket + 1, bracket + 2).ToLower() + original.Substring(bracket + 2);
-                    int openBracket = original.IndexOf("(", bracket + 1);
-                    int closebracket = original.IndexOf(")", bracket + 1);
-
-                    if (closebracket < openBracket || (openBracket == -1 && closebracket != -1))
-                    {
-                        // we are at a root part of the brackets (ie where a boolean expression should be
-                        if (original.Substring(bracket + 1, closebracket).IndexOf('&') != -1 && makebool)
-                        {
-                            // we hava a bit wise operation, lets equate to not zero for true
-                            original = original.Substring(0, bracket + 1) + "(" + original.Substring(bracket + 1, closebracket) + ")!=0" + original.Substring(closebracket);
-                            bracket = original.IndexOf("(", bracket + 1);
-                        }
-
-                        bracket = original.IndexOf("(", bracket + 1);
-                    }
-                    else
-                    {
-                        bracket = original.IndexOf("(", bracket + 1);
-                    }
-                }
-            }
-            return original.Replace("\\?", "TEST");
-        }
-        */
-
 
         private String findVariableAndConvert(String original, bool makebool)
         {
@@ -499,6 +443,9 @@ namespace nifcslib.NifTypes
 
             // first remove all the spaces
             original = original.Replace(" ", "");
+
+            //expression parser.
+
 
             int bracket = original.IndexOf("(");
 

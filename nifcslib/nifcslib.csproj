@@ -70,7 +70,6 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
-    <Compile Include="Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -78,10 +77,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Docs\devnotes.txt" />
-    <Compile Include="NifUtilities\Utilies.cs" />
-    <Content Include="Docs\nif.xml">
-      <SubType>Designer</SubType>
-    </Content>
+    <Compile Include="NifUtilities\Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
@@ -106,7 +102,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
