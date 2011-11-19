@@ -12,12 +12,14 @@ namespace nifcslib.NifUtilities
     public class SimpleDebug
     {
         #region variable declarations
-        private static int _callcount;
-        private static bool _equalscheck;
-        private static bool _containscheck;
-        private static string _containsstring;
-        private static string _equalsstring;
-        private static Dictionary<string, List<string>> lists;
+        private int _callcount;
+        private bool _equalscheck;
+        private bool _containscheck;
+        private string _containsstring;
+        private string _equalsstring;
+        private Dictionary<string, List<string>> lists;
+        private bool _enableconsoleprinting;
+        private bool _writelogfiles;
         #endregion
 
         #region Function Declarations
@@ -30,6 +32,8 @@ namespace nifcslib.NifUtilities
             _containsstring = String.Empty;
             _equalsstring = String.Empty;
             lists = new Dictionary<string, List<string>>();
+            _enableconsoleprinting = false;
+            _writelogfiles = false;
         }
         
         public void PerformChecks()
@@ -58,7 +62,8 @@ namespace nifcslib.NifUtilities
                         continue;
                 }
             }
-            CreateLogFiles();
+            if(_writelogfiles)
+                CreateLogFiles();
         }
 
         private void CreateLogFiles()
@@ -99,16 +104,21 @@ namespace nifcslib.NifUtilities
         private List<string> PerformPropertyCheck<T>(Dictionary<string, T> dict, string property)
         {
             List<string> list = new List<string>();
+            string propstring, name;
             foreach (KeyValuePair<string, T> item in dict)
             {
-                string propstring = item.Value.GetType().GetProperty(property).GetGetMethod().Invoke(item.Value, null).ToString();
+                propstring = item.Value.GetType().GetProperty(property).GetGetMethod().Invoke(item.Value, null).ToString();
                 if (checkString(propstring))
                 {
-                    string name = item.Value.GetType().GetProperty("name").GetGetMethod().Invoke(item.Value, null).ToString();
+                    name = item.Value.GetType().GetProperty("name").GetGetMethod().Invoke(item.Value, null).ToString();
+                    
                     list.Add(name + ": " + propstring);
                     _callcount++;
                 }
             }
+            if (_enableconsoleprinting)
+                foreach(string item in list)
+                    Console.WriteLine(item);
             return list;
         }
 
@@ -136,6 +146,9 @@ namespace nifcslib.NifUtilities
                     }
                 }
             }
+            if (_enableconsoleprinting)
+                foreach (string item in list)
+                    Console.WriteLine(item);
             return list;
         }
 
@@ -201,7 +214,31 @@ namespace nifcslib.NifUtilities
             }
         }
 
-        public bool checkString(string comparison)
+        public bool enableconsoleprinting
+        {
+            get
+            {
+                return _enableconsoleprinting;
+            }
+            set
+            {
+                _enableconsoleprinting = value;
+            }
+        }
+
+        public bool writelogfiles
+        {
+            get
+            {
+                return _writelogfiles;
+            }
+            set
+            {
+                _writelogfiles = value;
+            }
+        }
+
+        private bool checkString(string comparison)
         {
             if (_equalscheck)
                 if(comparison.Trim().Equals(_equalsstring))

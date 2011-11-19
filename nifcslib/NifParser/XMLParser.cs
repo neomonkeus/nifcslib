@@ -20,8 +20,9 @@ namespace nifcslib
             
             #region debug
             SimpleDebug debug = new SimpleDebug();
+            debug.enableconsoleprinting = true;
+            debug.writelogfiles = true;
             debug.PerformChecks();
-            NifDataHolder.getInstance();
             Console.ReadKey();
             #endregion
             

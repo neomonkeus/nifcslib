@@ -1,7 +1,4 @@
-ExportInfo: 
 MotorDescriptor: 
-LimitedHingeDescriptor: 
-HingeDescriptor: 
 MultiTextureElement: 
 HalfSpaceBV: 
 BoundingVolume: 
