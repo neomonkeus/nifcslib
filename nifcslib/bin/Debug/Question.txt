@@ -1,0 +1,93 @@
+BlockTypeIndex: A 16-bit (signed?) integer, which is used in the header to refer to a particular object type in a object type string array.
+        The upper bit appears to be a flag used for PhysX block types.
+DataStreamAccess: Determines how the data stream is accessed?
+FurniturePosition: Describes a furniture position?
+MotionQuality: The motion type. Determines quality of motion?
+ForceType: The type of force?  May be more valid values.
+DataStreamUsage: Determines how a data stream is used?
+BhkSerializable: Havok objects that can be saved and loaded from disk?
+BhkWorldObject: Havok objects that have a position in the world?
+BhkShape: A Havok Shape?
+BhkSphereRepShape: A havok shape, perhaps with a bounding sphere for quick rejection in addition to more detailed shape data?
+BhkConvexTransformShape: A convex transformed shape?
+BhkBvTreeShape: A tree-like Havok data structure stored in an assembly-like binary code?
+BhkShapeCollection: Havok collision object that uses multiple shapes?
+NiKeyBasedInterpolator: Interpolator objects that use keys?
+BhkNiCollisionObject: Havok related collision object?
+BhkCollisionObject: Havok related collision object?
+NiPSysEmitter: A particle emitter?
+NiPSysVolumeEmitter: An emitter that emits meshes?
+NiInterpController: A controller capable of interpolation?
+NiPSysModifierBoolCtlr: A particle system modifier controller that deals with boolean data?
+NiPSysModifierFloatCtlr: A particle system modifier controller that deals with floating point data?
+NiFloatInterpController: A controller that interpolates floating point numbers?
+NiBoolInterpController: A controller that interpolates floating point numbers?
+NiPoint3InterpController: A controller that interpolates point 3 data?
+BSFurnitureMarker: Unknown. Marks furniture sitting positions?
+HkPackedNiTriStripsData: NiTriStripsData for havok data?
+NiAutoNormalParticlesData: Particle system data object (with automatic normals?).
+NiBlendPoint3Interpolator: Interpolates a point?
+NiControllerManager: Unknown. Root of all controllers?
+NiFogProperty: Describes... fog?
+BSXFlags: Controls animation and collision.  Integer holds flags:
+        Bit 0 : enable havok
+        Bit 1 : enable collision
+        Bit 2 : is skeleton nif?
+        Bit 3 : enable animation
+        Bit 4 : FlameNodes present
+        Bit 5 : EditorMarkers present
+NiBone: A NiNode used as a skeleton bone?
+AvoidNode: Morrowind specific?
+FxWidget: Firaxis-specific UI widgets?
+NiBSAnimationNode: Bethesda-specific extension of Node with animation properties stored in the flags, often 42?
+NiSwitchNode: A node used to switch between branches, such as for LOD levels?
+NiParticleMeshes: Mesh particle node?
+NiPSysUpdateCtlr: Particle system controller, used for ???.
+NiScreenLODData: Describes levels of detail based on size of object on screen?
+WaterShaderProperty: Bethesda-specific node? Found in Fallout3
+SkyShaderProperty: Bethesda-specific node? Found in Fallout3
+BSDecalPlacementVectorExtraData: Bethesda-specific node. (for dynamic decal projection?)
+BSStripParticleSystem: Bethesda-Specific (mesh?) Particle System.
+BSStripPSysData: Bethesda-Specific (mesh?) Particle System Data.
+BSPSysStripUpdateModifier: Bethesda-Specific (mesh?) Particle System Modifier.
+BSPSysMultiTargetEmitterCtlr: Particle system (multi?) emitter controller.
+10.0.1.3: ?
+BSShaderFlags: SF_UNKNOWN_6: Unknown\Light fade? (if 0 and envmap is on, "envmap light fade" is not present)
+BSShaderFlags: SF_UNKNOWN_22: Unknown (Always 0?)
+BSShaderFlags: SF_UNKNOWN_27: Unknown (Always 0?)
+SkinShape: skinInstance: Skinning instance for the shape?
+ExportInfo: creator: Could be the name of the creator of the NIF file?
+Header: unknownInt3: Unknown. Possibly User Version 2?
+Header: blockSize: Array of block sizes?
+NskeyvecarrayFloat: keys: Another type of linear key?
+TexDesc: unknown1: Unknown, 0 or 0x0101?
+TexDesc: translation: The amount to translate the texture coordinates in each direction?
+TexDesc: tiling: The number of times the texture is tiled in each direction?
+TexDesc: transformType?: The texture transform type?  Doesn't seem to do anything.
+TexDesc: centerOffset: The offset from the origin?
+ShaderTexDesc: isUsed: Is it used?
+TexSource: useExternal: Is the texture external?
+SkinPartition: hasVertexMap: Do we have a vertex map?
+SkinPartition: hasVertexWeights: Do we have vertex weights?
+SkinPartition: hasFaces: Do we have triangle or strip data?
+SkinPartition: hasBoneIndices: Do we have bone indices?
+SkinData: unknown13Shorts: Unknown, always 0?
+OblivionSubShape: unknownShort: Unknown. Perhaps the vertex wielding type?
+OldSkinData: unknownVector: Unknown.  Perhaps some sort of offset?
+MultiTextureElement: pS2L: 0?
+MultiTextureElement: pS2K: -75?
+AdditionalDataInfo: blockIndex: Unsure. The block in which this channel is stored? Usually there is only one block, and so this is zero.
+BSPackedAdditionalDataBlock: numBlocks: Number of blocks? Usually equal to one.
+BSPackedAdditionalDataBlock: blockOffsets: Block offsets in the data? Usually equal to zero.
+BSPackedAdditionalDataBlock: numAtoms: Number of atoms?
+MaterialData: materialExtraData: Extra data associated with the material?
+OblivionLayer: OL_UNKNOWN1: ? (white)
+OblivionLayer: OL_UNKNOWN2: ? (white)
+OblivionLayer: OL_BACK_WEAPON2: BackWeapon (?)
+BillboardMode: ROTATE_ABOUT_UP2: The billboard will only rotate around the up axis (same as ROTATE_ABOUT_UP?).
+FaceDrawMode: DRAW_CCW_OR_BOTH: use application defaults?
+FaceDrawMode: DRAW_CCW: Draw counter clock wise faces, cull clock wise faces. This is the default for most (all?) Nif Games so far.
+VelocityType: VELOCITY_USE_DIRECTION: Uses the emission axis to determine initial particle direction?
+EmitFrom: EMIT_FROM_FACE_SURFACE: Perhaps randomly emit particles from anywhere on the faces of the mesh?
+EmitFrom: EMIT_FROM_EDGE_SURFACE: Perhaps randomly emit particles from anywhere on the edges of the mesh?
+Nskeyvecarray: keys: Another type of linear key?

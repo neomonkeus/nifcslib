@@ -1,0 +1,156 @@
+SkinShapeGroup: Unknown.
+Ni3dsAlphaAnimator: Unknown.
+Ni3dsAnimationNode: Unknown. Only found in 2.3 nifs.
+Ni3dsColorAnimator: Unknown!
+Ni3dsMorphShape: Unknown!
+Ni3dsParticleSystem: Unknown!
+Ni3dsPathController: Unknown!
+BhkSimpleShapePhantom: Unknown shape.
+BhkRigidBodyT: Unknown.
+BhkMultiSphereShape: Unknown.
+NiFloatInterpolator: Unknown.
+NiPoint3Interpolator: Unknown.
+NiPathInterpolator: Unknown interpolator.
+NiBoolInterpolator: Unknown.
+NiBoolTimelineInterpolator: Unknown.
+BhkBlendCollisionObject: Unknown.
+BhkPCollisionObject: Unknown.
+BhkSPCollisionObject: Unknown.
+NiTransparentProperty: Unknown
+NiMultiTargetTransformController: Unknown.
+NiMorphController: Unknown! Used by Daoc->'healing.nif'.
+NiMorpherController: Unknown! Used by Daoc.
+NiPSysModifierActiveCtlr: Unknown.
+NiPSysEmitterDeclinationCtlr: Unknown.
+NiPSysEmitterDeclinationVarCtlr: Unknown.
+NiPSysEmitterInitialRadiusCtlr: Unknown.
+NiPSysEmitterLifeSpanCtlr: Unknown.
+NiPSysEmitterSpeedCtlr: Unknown.
+NiPSysGravityStrengthCtlr: Unknown.
+NiLightDimmerController: Unknown controller.
+NiFloatExtraDataController: Unknown.
+BhkBlendController: Unknown. Is apparently only used in skeleton.nif files.
+BSFurnitureMarker: Unknown. Marks furniture sitting positions?
+NiBlendTransformInterpolator: Unknown.
+NiBSplineFloatInterpolator: Unknown.
+NiBSplineCompFloatInterpolator: Unknown.
+NiBSplinePoint3Interpolator: Unknown.
+NiBSplineCompPoint3Interpolator: Unknown.
+NiColorExtraData: Unknown.
+NiControllerManager: Unknown. Root of all controllers?
+NiAVObjectPalette: Unknown.
+NiDefaultAVObjectPalette: Unknown. Refers to a list of objects. Used by NiControllerManager.
+NiDitherProperty: Unknown.
+NiRollController: Unknown.
+NiFloatsExtraData: Unknown.
+NiLookAtController: Unknown. Start time is 3.4e+38 and stop time is -3.4e+38.
+NiLookAtInterpolator: Unknown.
+FxButton: Unknown.
+FxRadioButton: Unknown.
+NiBSParticleNode: Unknown.
+NiParticleColorModifier: Unknown.
+NiParticleMeshModifier: Unknown.
+NiParticleRotation: Unknown.
+NiAutoNormalParticles: Unknown.
+NiPlanarCollider: Unknown.
+NiPSysAgeDeathModifier: Unknown particle modifier.
+NiPSysBoundUpdateModifier: Unknown particle system modifier.
+NiPSysDragModifier: Unknown.
+NiPSysMeshUpdateModifier: Unknown.
+NiPSysPositionModifier: Unknown particle system modifier.
+NiPSysResetOnLoopCtlr: Unknown.
+NiPSysSpawnModifier: Unknown particle modifier.
+NiLightIntensityController: Unknown controller
+NiRotatingParticles: Unknown.
+NiSphericalCollider: Unknown.
+NiTextureModeProperty: Unknown
+NiEnvMappedTriShape: Unknown
+NiBezierMesh: Unknown
+NiWireframeProperty: Unknown.
+NiSortAdjustNode: Unknown node.  Found in Loki.
+NiSourceCubeMap: Unknown node.  Found in Emerge Demo.
+NiPhysXProp: Unknown PhysX node.
+NiPhysXPropDesc: Unknown PhysX node.
+NiPhysXActorDesc: Unknown PhysX node.
+NiPhysXBodyDesc: Unknown PhysX node.
+NiPhysXD6JointDesc: Unknown PhysX node.
+NiPhysXShapeDesc: Unknown PhysX node.
+NiPhysXMeshDesc: Unknown PhysX node.
+NiPhysXMaterialDesc: Unknown node.
+NiPhysXKinematicSrc: Unknown PhysX node.
+NiPhysXTransformDest: Unknown PhysX node.
+NiArkAnimationExtraData: Unknown node.
+NiArkImporterExtraData: Unknown node.
+NiArkTextureExtraData: Unknown node.
+NiArkViewportInfoExtraData: Unknown node.
+NiArkShaderExtraData: Unknown node.
+BSShaderFlags: SF_UNKNOWN_6: Unknown\Light fade? (if 0 and envmap is on, "envmap light fade" is not present)
+BSShaderFlags: SF_UNKNOWN_17: Unknown/Crash
+BSShaderFlags: SF_UNKNOWN_19: Unknown/Crash
+BSShaderFlags: SF_UNKNOWN_22: Unknown (Always 0?)
+BSShaderFlags: SF_UNKNOWN_23: Unknown (usually 1)
+BSShaderFlags: SF_UNKNOWN_27: Unknown (Always 0?)
+BSShaderFlags: SF_UNKNOWN_31: Unknown
+LODRange: unknownInts: Unknown (0,0,0).
+ControllerLink: controller: Unknown link. Usually -1.
+ControllerLink: unknownLink2: Unknown.
+ControllerLink: unknownShort0: Unknown.
+ExportInfo: exportInfo1: Unknown. Can be something like 'TriStrip Process Script'.
+ExportInfo: exportInfo2: Unknown. Possibly the selected option of the export script. Can be something like 'Default Export Script'.
+Header: unknownInt3: Unknown. Possibly User Version 2?
+Header: unknownInt2: Unknown.
+TexDesc: unknownshort: Unknown, seems to always be 1
+TexDesc: unknown1: Unknown, 0 or 0x0101?
+TexSource: unknownLink: Unknown.
+TexSource: unknownByte: Unknown.
+Morph: unknownInt: Unknown.
+Morph: unknownInt: Unknown.
+Particle: unknownVector: Unknown
+Particle: unknownShort: Unknown short
+SkinData: unknown13Shorts: Unknown, always 0?
+OblivionColFilter: unknownShort: Unknown.
+OblivionSubShape: unknownShort: Unknown. Perhaps the vertex wielding type?
+MotorDescriptor: unknownFloat1: Unknown
+MotorDescriptor: unknownFloat2: Unknown
+MotorDescriptor: unknownFloat3: Unknown
+MotorDescriptor: unknownFloat4: Unknown
+MotorDescriptor: unknownFloat5: Unknown
+MotorDescriptor: unknownFloat6: Unknown
+MotorDescriptor: unknownByte1: Unknown
+RagdollDescriptor: enableMotor: Unknown
+LimitedHingeDescriptor: enableMotor: Unknown
+OldSkinData: unknownVector: Unknown.  Perhaps some sort of offset?
+MultiTextureElement: unknownShort3: Unknown.  Usually 0 but sometimes 257
+CapsuleBV: unknownFloat1: Unknown.
+CapsuleBV: unknownFloat2: Unknown.
+ParticleDesc: translation: Unknown.
+ParticleDesc: unknownFloats1: Unknown.
+ParticleDesc: unknownFloat1: Unknown.
+ParticleDesc: unknownFloat2: Unknown.
+ParticleDesc: unknownFloat3: Unknown.
+ParticleDesc: unknownInt1: Unknown.
+ChannelData: unknownByte1: Unknown
+PhysXMaterialRef: number: Unknown
+PhysXMaterialRef: unknownByte1: Unknown
+BSTreadTransfSubInfo: unknownInt1: Unknown
+BSTreadTransfSubInfo: unknownInt2: Unknown
+BSTreadTransfSubInfo: unknownInt3: Unknown
+BSTreadTransfSubInfo: unknownInt4: Unknown
+BSTreadTransfSubInfo: unknownInt5: Unknown
+BSTreadTransfSubInfo: unknownInt6: Unknown
+BSTreadTransfSubInfo: unknownInt7: Unknown
+BSTreadTransfSubInfo: unknownInt8: Unknown
+BSTreadTransfInfo: unknownFloat1: Unknown Flag
+BSSegmentedTriangle: unknownInt1: Unknown
+BSSegmentedTriangle: unknownInt2: Unknown
+BSSegmentedTriangle: unknownByte1: Unknown
+AdditionalDataInfo: unknownByte1: Unknown, usually equal to 2.
+AdditionalDataBlock: numBlocks: Unknown
+AdditionalDataBlock: blockOffsets: Unknown
+AdditionalDataBlock: numData: Unknown
+AdditionalDataBlock: dataSizes: Unknown
+AdditionalDataBlock: data: Unknown
+BSPackedAdditionalDataBlock: data: Unknown
+ApplyMode: APPLY_HILIGHT: PS2 Only.  Function Unknown.
+TexType: UNKNOWN2_MAP: Unknown map.
+ComponentFormat: F_UNKNOWN: Unknown, or don't care, format.

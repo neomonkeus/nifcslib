@@ -1,0 +1,195 @@
+ExportInfo: 
+MotorDescriptor: 
+LimitedHingeDescriptor: 
+HingeDescriptor: 
+MultiTextureElement: 
+HalfSpaceBV: 
+BoundingVolume: 
+UnionBV: 
+MorphWeight: 
+PhysXMaterialRef: 
+AdditionalDataInfo: 
+AdditionalDataBlock: 
+BSPackedAdditionalDataBlock: 
+SemanticData: 
+MeshData: 
+ExtraMeshDataEpicMickey: 
+ExtraMeshDataEpicMickey2: 
+ElementReference: 
+SkinTransform: 
+DeactivatorType: 
+EndianType: 
+SortingMode: 
+PropagationMode: 
+CollisionMode: 
+BoundVolumeType: 
+HkResponseType: 
+BSDismemberBodyPartType: 
+ChannelType: 
+ChannelConvention: 
+PSLoopBehavior: 
+BhkMeshShape: 
+AbstractAdditionalGeometryData: 
+BSRotAccumTransfInterpolator: 
+ATextureRenderData: 
+NiPersistentSrcTextureRendererData: 
+NiImage: 
+NiTextureProperty: 
+NiAdditionalGeometryData: 
+BSPackedAdditionalGeometryData: 
+NiDataStream: 
+NiMesh: 
+NiMorphWeightsController: 
+NiSkinningMeshModifier: 
+NiInstancingMeshModifier: 
+NiSkinningLODController: 
+NiPSParticleSystem: 
+NiPSMeshParticleSystem: 
+NiPSEmitParticlesCtlr: 
+NiPSForceActiveCtlr: 
+NiPSFacingQuadGenerator: 
+NiShadowGenerator: 
+NiPSBoundUpdater: 
+NiPSDragForce: 
+NiPSGravityForce: 
+NiPSBoxEmitter: 
+NiPSMeshEmitter: 
+NiPSGravityStrengthCtlr: 
+NiPSPlanarCollider: 
+NiPSEmitterSpeedCtlr: 
+NiPSEmitterRadiusCtlr: 
+NiPSResetOnLoopCtlr: 
+NiPSSphereEmitter: 
+NiPSCylinderEmitter: 
+NiPSEmitterDeclinationCtlr: 
+NiPSEmitterDeclinationVarCtlr: 
+NiPSEmitterPlanarAngleCtlr: 
+NiPSEmitterPlanarAngleVarCtlr: 
+NiPSEmitterRotAngleCtlr: 
+NiPSEmitterRotAngleVarCtlr: 
+NiPSEmitterRotSpeedCtlr: 
+NiPSEmitterRotSpeedVarCtlr: 
+NiPSEmitterLifeSpanCtlr: 
+NiPSBombForce: 
+NiPSSphericalCollider: 
+NiPSSpawner: 
+NiSequenceData: 
+NiTransformEvaluator: 
+NiBSplineCompTransformEvaluator: 
+NiMeshHWInstance: 
+NiFurSpringController: 
+CStreamableAssetData: 
+DataStreamAccess: CPU_READ: 
+DataStreamAccess: CPU_WRITE_STATIC: 
+DataStreamAccess: CPU_WRITE_MUTABLE: 
+DataStreamAccess: CPU_WRITE_VOLATILE: 
+DataStreamAccess: GPU_READ: 
+DataStreamAccess: GPU_WRITE: 
+DataStreamAccess: CPU_WRITE_STATIC_INITITIALIZED: 
+Header: copyright: 
+Header: exportInfo: 
+Header: exportInfo: 
+RagdollDescriptor: motor: 
+LimitedHingeDescriptor: motor: 
+ArkTexture: textureName: 
+ArkTexture: unknownInt3: 
+ArkTexture: unknownInt4: 
+ArkTexture: texturingProperty: 
+ArkTexture: unknownBytes: 
+InertiaMatrix: m11: 
+InertiaMatrix: m12: 
+InertiaMatrix: m13: 
+InertiaMatrix: m21: 
+InertiaMatrix: m22: 
+InertiaMatrix: m23: 
+InertiaMatrix: m31: 
+InertiaMatrix: m32: 
+InertiaMatrix: m33: 
+BSPackedAdditionalDataBlock: unknownInt1: 
+Region: startIndex: 
+Region: numIndices: 
+MeshData: numComponents: 
+ExtraMeshDataEpicMickey: unknownInt1: 
+ExtraMeshDataEpicMickey: unknownInt2: 
+ExtraMeshDataEpicMickey: unknownInt3: 
+ExtraMeshDataEpicMickey: unknownInt4: 
+ExtraMeshDataEpicMickey: unknownInt5: 
+ExtraMeshDataEpicMickey: unknownInt6: 
+ExtraMeshDataEpicMickey2: start: 
+ExtraMeshDataEpicMickey2: end: 
+ExtraMeshDataEpicMickey2: unknownShorts: 
+StencilAction: ACTION_KEEP: 
+StencilAction: ACTION_ZERO: 
+StencilAction: ACTION_REPLACE: 
+StencilAction: ACTION_INCREMENT: 
+StencilAction: ACTION_DECREMENT: 
+StencilAction: ACTION_INVERT: 
+ForceType: FORCE_PLANAR: 
+ForceType: FORCE_SPHERICAL: 
+ForceType: FORCE_UNKNOWN: 
+ComponentFormat: F_INT8_1: 
+ComponentFormat: F_INT8_2: 
+ComponentFormat: F_INT8_3: 
+ComponentFormat: F_INT8_4: 
+ComponentFormat: F_UINT8_1: 
+ComponentFormat: F_UINT8_2: 
+ComponentFormat: F_UINT8_3: 
+ComponentFormat: F_UINT8_4: 
+ComponentFormat: F_NORMINT8_1: 
+ComponentFormat: F_NORMINT8_2: 
+ComponentFormat: F_NORMINT8_3: 
+ComponentFormat: F_NORMINT8_4: 
+ComponentFormat: F_NORMUINT8_1: 
+ComponentFormat: F_NORMUINT8_2: 
+ComponentFormat: F_NORMUINT8_3: 
+ComponentFormat: F_NORMUINT8_4: 
+ComponentFormat: F_INT16_1: 
+ComponentFormat: F_INT16_2: 
+ComponentFormat: F_INT16_3: 
+ComponentFormat: F_INT16_4: 
+ComponentFormat: F_UINT16_1: 
+ComponentFormat: F_UINT16_2: 
+ComponentFormat: F_UINT16_3: 
+ComponentFormat: F_UINT16_4: 
+ComponentFormat: F_NORMINT16_1: 
+ComponentFormat: F_NORMINT16_2: 
+ComponentFormat: F_NORMINT16_3: 
+ComponentFormat: F_NORMINT16_4: 
+ComponentFormat: F_NORMUINT16_1: 
+ComponentFormat: F_NORMUINT16_2: 
+ComponentFormat: F_NORMUINT16_3: 
+ComponentFormat: F_NORMUINT16_4: 
+ComponentFormat: F_INT32_1: 
+ComponentFormat: F_INT32_2: 
+ComponentFormat: F_INT32_3: 
+ComponentFormat: F_INT32_4: 
+ComponentFormat: F_UINT32_1: 
+ComponentFormat: F_UINT32_2: 
+ComponentFormat: F_UINT32_3: 
+ComponentFormat: F_UINT32_4: 
+ComponentFormat: F_NORMINT32_1: 
+ComponentFormat: F_NORMINT32_2: 
+ComponentFormat: F_NORMINT32_3: 
+ComponentFormat: F_NORMINT32_4: 
+ComponentFormat: F_NORMUINT32_1: 
+ComponentFormat: F_NORMUINT32_2: 
+ComponentFormat: F_NORMUINT32_3: 
+ComponentFormat: F_NORMUINT32_4: 
+ComponentFormat: F_FLOAT16_1: 
+ComponentFormat: F_FLOAT16_2: 
+ComponentFormat: F_FLOAT16_3: 
+ComponentFormat: F_FLOAT16_4: 
+ComponentFormat: F_FLOAT32_1: 
+ComponentFormat: F_FLOAT32_2: 
+ComponentFormat: F_FLOAT32_3: 
+ComponentFormat: F_FLOAT32_4: 
+ComponentFormat: F_UINT_10_10_10_L1: 
+ComponentFormat: F_NORMINT_10_10_10_L1: 
+ComponentFormat: F_NORMINT_11_11_10: 
+ComponentFormat: F_NORMUINT8_4_BGRA: 
+ComponentFormat: F_NORMINT_10_10_10_2: 
+ComponentFormat: F_UINT_10_10_10_2: 
+DataStreamUsage: USAGE_VERTEX_INDEX: 
+DataStreamUsage: USAGE_VERTEX: 
+DataStreamUsage: USAGE_SHADER_CONSTANT: 
+DataStreamUsage: USAGE_USER: 
