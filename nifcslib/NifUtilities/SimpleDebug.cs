@@ -17,7 +17,7 @@ namespace nifcslib.NifUtilities
         private bool _containscheck;
         private string _containsstring;
         private string _equalsstring;
-        private Dictionary<string, List<string>> lists;
+        private Dictionary<string, List<string>> filedict;
         private bool _enableconsoleprinting;
         private bool _writelogfiles;
         #endregion
@@ -31,32 +31,34 @@ namespace nifcslib.NifUtilities
             _containscheck = false;
             _containsstring = String.Empty;
             _equalsstring = String.Empty;
-            lists = new Dictionary<string, List<string>>();
+            filedict = new Dictionary<string, List<string>>();
             _enableconsoleprinting = false;
             _writelogfiles = false;
         }
         
         public void PerformChecks()
         {
-            for (int i = 0; i < 3; i++)
+            for (int i = 0; i < 4; i++)
             {
                 switch (i)
                 {
                     case 0:
                         _equalscheck = true;
                         _equalsstring = "";
-                        lists.Add("Empty", ProcessDebugQuery());
+                        filedict.Add("Empty", ProcessDescriptionDebug());
                         _equalscheck = false;
                         continue;
-                    case 1:
-                        
+                    case 1:                    
                         _containscheck = true;
                         _containsstring = "Unknown";
-                        lists.Add("Unknown", ProcessDebugQuery());
+                        filedict.Add("Unknown", ProcessDescriptionDebug());
                         continue;
                     case 2:
                         _containsstring = "?";
-                        lists.Add("Question", ProcessDebugQuery());
+                        filedict.Add("Question", ProcessDescriptionDebug());
+                        continue;
+                    case 3:
+                        filedict.Add("Unique", RemoveDuplicateQuery());
                         continue;
                     default:
                         continue;
@@ -69,7 +71,7 @@ namespace nifcslib.NifUtilities
         private void CreateLogFiles()
         {
             List<string> list;
-            foreach(KeyValuePair<string, List<string>> keypairs in lists)
+            foreach (KeyValuePair<string, List<string>> keypairs in filedict)
 	        {
                 using (StreamWriter writer = new StreamWriter(".\\" + keypairs.Key + ".txt"))
                 {
@@ -83,8 +85,35 @@ namespace nifcslib.NifUtilities
             }
         }
 
-        private List<string> ProcessDebugQuery()
+        private List<String> RemoveDuplicateQuery()
         {
+            _callcount = 0;
+            List<string> uniquelist = new List<string>();
+            foreach (KeyValuePair<string, List<string>> file in filedict)
+            {
+                foreach (string item in file.Value)
+                {
+                    if (uniquelist.Contains(item))
+                    {
+                        continue;
+                    }
+                    else
+                    {
+                        uniquelist.Add(item);
+                        _callcount++;
+                    }
+                }
+            }
+            if (_enableconsoleprinting)
+                foreach (string item in uniquelist)
+                    Console.WriteLine(item);
+            Console.WriteLine(_callcount);
+            return uniquelist;
+        }
+
+        private List<string> ProcessDescriptionDebug()
+        {
+            _callcount = 0;
             List<string> list = new List<string>();
             list.AddRange(PerformPropertyCheck(NifDataHolder.getInstance().basiclist, "description"));
             list.AddRange(PerformPropertyCheck(NifDataHolder.getInstance().bitflagitemlist, "description"));

@@ -14,6 +14,8 @@ ExtraMeshDataEpicMickey:
 ExtraMeshDataEpicMickey2: 
 ElementReference: 
 SkinTransform: 
+BhkCMSDShape: 
+BhkCMSDContainer: 
 DeactivatorType: 
 EndianType: 
 SortingMode: 
@@ -30,8 +32,18 @@ AbstractAdditionalGeometryData:
 BSRotAccumTransfInterpolator: 
 ATextureRenderData: 
 NiPersistentSrcTextureRendererData: 
+BSPSysInheritVelocityModifier: 
+BSPSysHavokUpdateModifier: 
+BSPSysRecycleBoundModifier: 
+BSPSysSubTexModifier: 
+BSPSysLODModifier: 
+BSPSysScaleModifier: 
 NiImage: 
 NiTextureProperty: 
+BSEffectShaderProperty: 
+BSEffectShaderPropertyFloatController: 
+BSLightingShaderPropertyColorController: 
+BSProceduralLightningController: 
 NiAdditionalGeometryData: 
 BSPackedAdditionalGeometryData: 
 NiDataStream: 
@@ -76,6 +88,68 @@ NiBSplineCompTransformEvaluator:
 NiMeshHWInstance: 
 NiFurSpringController: 
 CStreamableAssetData: 
+BhkCompressedMeshShapeData: 
+BSSkyShaderProperty: 
+SkyrimEffectShaderFlags1: SESF1_0: 
+SkyrimEffectShaderFlags1: SESF1_1: 
+SkyrimEffectShaderFlags1: SESF1_2: 
+SkyrimEffectShaderFlags1: SESF1_3: 
+SkyrimEffectShaderFlags1: SESF1_5: 
+SkyrimEffectShaderFlags1: SESF1_6: 
+SkyrimEffectShaderFlags1: SESF1_7: 
+SkyrimEffectShaderFlags2: SESF2_2: 
+SkyrimEffectShaderFlags2: SESF2_3: 
+SkyrimEffectShaderFlags2: SESF2_4: 
+SkyrimEffectShaderFlags2: SESF2_5: 
+SkyrimEffectShaderFlags2: SESF2_6: 
+SkyrimEffectShaderFlags2: SESF2_7: 
+SkyrimLightingShaderFlags1: SLSF1_2: 
+SkyrimLightingShaderFlags1: SLSF1_3: 
+SkyrimLightingShaderFlags1: SLSF1_4: 
+SkyrimLightingShaderFlags1: SLSF1_5: 
+SkyrimLightingShaderFlags1: SLSF1_6: 
+SkyrimLightingShaderFlags1: SLSF1_8: 
+SkyrimLightingShaderFlags1: SLSF1_10: 
+SkyrimLightingShaderFlags1: SLSF1_11: 
+SkyrimLightingShaderFlags1: SLSF1_13: 
+SkyrimLightingShaderFlags1: SLSF1_14: 
+SkyrimLightingShaderFlags1: SLSF1_15: 
+SkyrimLightingShaderFlags1: SLSF1_16: 
+SkyrimLightingShaderFlags1: SLSF1_18: 
+SkyrimLightingShaderFlags1: SLSF1_19: 
+SkyrimLightingShaderFlags1: SLSF1_20: 
+SkyrimLightingShaderFlags1: SLSF1_21: 
+SkyrimLightingShaderFlags1: SLSF1_22: 
+SkyrimLightingShaderFlags1: SLSF1_23: 
+SkyrimLightingShaderFlags1: SLSF1_24: 
+SkyrimLightingShaderFlags1: SLSF1_25: 
+SkyrimLightingShaderFlags1: SLSF1_26: 
+SkyrimLightingShaderFlags1: SLSF1_27: 
+SkyrimLightingShaderFlags1: SLSF1_28: 
+SkyrimLightingShaderFlags1: SLSF1_29: 
+SkyrimLightingShaderFlags1: SLSF1_30: 
+SkyrimLightingShaderFlags2: SLSF2_1: 
+SkyrimLightingShaderFlags2: SLSF2_2: 
+SkyrimLightingShaderFlags2: SLSF2_3: 
+SkyrimLightingShaderFlags2: SLSF2_7: 
+SkyrimLightingShaderFlags2: SLSF2_8: 
+SkyrimLightingShaderFlags2: SLSF2_9: 
+SkyrimLightingShaderFlags2: SLSF2_10: 
+SkyrimLightingShaderFlags2: SLSF2_11: 
+SkyrimLightingShaderFlags2: SLSF2_12: 
+SkyrimLightingShaderFlags2: SLSF2_13: 
+SkyrimLightingShaderFlags2: SLSF2_14: 
+SkyrimLightingShaderFlags2: SLSF2_15: 
+SkyrimLightingShaderFlags2: SLSF2_17: 
+SkyrimLightingShaderFlags2: SLSF2_18: 
+SkyrimLightingShaderFlags2: SLSF2_19: 
+SkyrimLightingShaderFlags2: SLSF2_20: 
+SkyrimLightingShaderFlags2: SLSF2_21: 
+SkyrimLightingShaderFlags2: SLSF2_22: 
+SkyrimLightingShaderFlags2: SLSF2_23: 
+SkyrimLightingShaderFlags2: SLSF2_28: 
+SkyrimLightingShaderFlags2: SLSF2_30: 
+SkyrimLightingShaderFlags2: SLSF2_31: 
 DataStreamAccess: CPU_READ: 
 DataStreamAccess: CPU_WRITE_STATIC: 
 DataStreamAccess: CPU_WRITE_MUTABLE: 

@@ -47,7 +47,7 @@ namespace nifcslib
                     NifDataHolder.getInstance().versionlist.Add(version.name, version);
                 }
             }
-
+            
             //get list of vasic elements
             XmlNodeList xmlbasiclist = root.GetElementsByTagName("basic");
             if (xmlbasiclist != null && xmlbasiclist.Count > 0)
@@ -61,7 +61,7 @@ namespace nifcslib
                     NifDataHolder.getInstance().basiclist.Add(basic.name, basic);
                 }
             }
-
+            
             //get list of enum elements
             XmlNodeList xmlenumitemlist = root.GetElementsByTagName("enum");
             if (xmlenumitemlist != null && xmlenumitemlist.Count > 0)
@@ -76,7 +76,7 @@ namespace nifcslib
                 }
             }
 
-            //get a nodelist of  elements
+            //get a nodelist of bitflag elements
             XmlNodeList xmlbitflagslist = root.GetElementsByTagName("bitflags");
             if (xmlbitflagslist != null && xmlbitflagslist.Count > 0)
             {
@@ -142,7 +142,7 @@ namespace nifcslib
                 }
             }
         }
-
+        
         private NifTypes.Version genversionfromxml(XmlElement xmlversion)
         {
 

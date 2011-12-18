@@ -36,6 +36,8 @@ BSXFlags: Controls animation and collision.  Integer holds flags:
         Bit 3 : enable animation
         Bit 4 : FlameNodes present
         Bit 5 : EditorMarkers present
+        Bit 6 : ? (Skyrim)
+        Bit 7 : ? (Skyrim)
 NiBone: A NiNode used as a skeleton bone?
 AvoidNode: Morrowind specific?
 FxWidget: Firaxis-specific UI widgets?
@@ -51,10 +53,11 @@ BSStripParticleSystem: Bethesda-Specific (mesh?) Particle System.
 BSStripPSysData: Bethesda-Specific (mesh?) Particle System Data.
 BSPSysStripUpdateModifier: Bethesda-Specific (mesh?) Particle System Modifier.
 BSPSysMultiTargetEmitterCtlr: Particle system (multi?) emitter controller.
+BSTreeNode: Node for handling Trees, Switches branch configurations for variation?
 10.0.1.3: ?
-BSShaderFlags: SF_UNKNOWN_6: Unknown\Light fade? (if 0 and envmap is on, "envmap light fade" is not present)
-BSShaderFlags: SF_UNKNOWN_22: Unknown (Always 0?)
-BSShaderFlags: SF_UNKNOWN_27: Unknown (Always 0?)
+SkyrimEffectShaderFlags2: SESF2_TEXTURE_TRANSFORM_U: Has Texture Transform (U?)
+SkyrimEffectShaderFlags2: SESF2_TEXTURE_TRANSFORM_V: Has Texture Transform (V?)
+SkyrimLightingShaderFlags2: SLSF2_VERTEX_COLOR: Has Vertex Colors (Maybe, could be Vertex Alpha?)
 SkinShape: skinInstance: Skinning instance for the shape?
 ExportInfo: creator: Could be the name of the creator of the NIF file?
 Header: unknownInt3: Unknown. Possibly User Version 2?
@@ -76,11 +79,13 @@ OblivionSubShape: unknownShort: Unknown. Perhaps the vertex wielding type?
 OldSkinData: unknownVector: Unknown.  Perhaps some sort of offset?
 MultiTextureElement: pS2L: 0?
 MultiTextureElement: pS2K: -75?
+BSTreadTransform: name: Name of affected node?
 AdditionalDataInfo: blockIndex: Unsure. The block in which this channel is stored? Usually there is only one block, and so this is zero.
 BSPackedAdditionalDataBlock: numBlocks: Number of blocks? Usually equal to one.
 BSPackedAdditionalDataBlock: blockOffsets: Block offsets in the data? Usually equal to zero.
 BSPackedAdditionalDataBlock: numAtoms: Number of atoms?
 MaterialData: materialExtraData: Extra data associated with the material?
+BhkCMSDSomething: unknownInteger: Always 1?
 OblivionLayer: OL_UNKNOWN1: ? (white)
 OblivionLayer: OL_UNKNOWN2: ? (white)
 OblivionLayer: OL_BACK_WEAPON2: BackWeapon (?)

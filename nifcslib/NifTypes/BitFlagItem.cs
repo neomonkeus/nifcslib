@@ -2,9 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using nifcslib.NifTypes;
 
-namespace nifcslib
+namespace nifcslib.NifTypes
 {
     public class BitFlagItem
     {
@@ -12,7 +11,7 @@ namespace nifcslib
         private string _name = "";
         private string _description = "";
         private string _storage = "";
-        private List<EnumItemOption> _optionlist = new List<EnumItemOption>();
+        private List<BitFlagItemOption> _optionlist = new List<BitFlagItemOption>();
         #endregion
 
         #region Property Accessors
@@ -52,7 +51,7 @@ namespace nifcslib
             }
         }
 
-        public List<EnumItemOption> optionlist
+        public List<BitFlagItemOption> optionlist
         {
             set
             {
@@ -68,7 +67,7 @@ namespace nifcslib
         #region Function Declaration
         public void addOption(String name, String description, int value)
         {
-            EnumItemOption item = new EnumItemOption();
+            BitFlagItemOption item = new BitFlagItemOption();
             item.name = name;
             item.description = description;
             item.value = value;
@@ -82,7 +81,7 @@ namespace nifcslib
             String s = "";
             s = s + "Name [" + name + "] Description [" + description + "] Storage [ " + storage + "]";
 
-            foreach (EnumItemOption item in optionlist)
+            foreach (BitFlagItemOption item in optionlist)
             {
                 s = s + item.ToString();
             }

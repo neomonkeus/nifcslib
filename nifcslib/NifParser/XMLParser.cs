@@ -10,25 +10,27 @@ namespace nifcslib
     {
         //private static XMLWriter _writer;
         private static Nifxmlreader _reader;
-
+        private static bool debug = true;
 
         public static void Main()
         {
             _reader = new Nifxmlreader(Properties.Settings.Default.NIF_XML);
             _reader.LoadXml();
             _reader.processXml();
+            NifDataHolder.getInstance();
             
             #region debug
-            SimpleDebug debug = new SimpleDebug();
-            debug.enableconsoleprinting = true;
-            debug.writelogfiles = true;
-            debug.PerformChecks();
-            Console.ReadKey();
+            if (debug)
+            {
+                SimpleDebug logging = new SimpleDebug();
+                logging.enableconsoleprinting = true;
+                logging.writelogfiles = true;
+                logging.PerformChecks();
+                Console.ReadKey();
+            }
             #endregion
             
         }
-
-        
 
     }
 }

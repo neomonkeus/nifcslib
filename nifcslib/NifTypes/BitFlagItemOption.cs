@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace nifcslib.Niftypes
+namespace nifcslib.NifTypes
 {
-    class BitFlagItemOption
+    public class BitFlagItemOption
     {
         #region Variable Declarations
         private string _name = "";

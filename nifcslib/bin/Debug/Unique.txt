@@ -1,0 +1,517 @@
+MotorDescriptor: 
+MultiTextureElement: 
+HalfSpaceBV: 
+BoundingVolume: 
+UnionBV: 
+MorphWeight: 
+PhysXMaterialRef: 
+AdditionalDataInfo: 
+AdditionalDataBlock: 
+BSPackedAdditionalDataBlock: 
+SemanticData: 
+MeshData: 
+ExtraMeshDataEpicMickey: 
+ExtraMeshDataEpicMickey2: 
+ElementReference: 
+SkinTransform: 
+BhkCMSDShape: 
+BhkCMSDContainer: 
+DeactivatorType: 
+EndianType: 
+SortingMode: 
+PropagationMode: 
+CollisionMode: 
+BoundVolumeType: 
+HkResponseType: 
+BSDismemberBodyPartType: 
+ChannelType: 
+ChannelConvention: 
+PSLoopBehavior: 
+BhkMeshShape: 
+AbstractAdditionalGeometryData: 
+BSRotAccumTransfInterpolator: 
+ATextureRenderData: 
+NiPersistentSrcTextureRendererData: 
+BSPSysInheritVelocityModifier: 
+BSPSysHavokUpdateModifier: 
+BSPSysRecycleBoundModifier: 
+BSPSysSubTexModifier: 
+BSPSysLODModifier: 
+BSPSysScaleModifier: 
+NiImage: 
+NiTextureProperty: 
+BSEffectShaderProperty: 
+BSEffectShaderPropertyFloatController: 
+BSLightingShaderPropertyColorController: 
+BSProceduralLightningController: 
+NiAdditionalGeometryData: 
+BSPackedAdditionalGeometryData: 
+NiDataStream: 
+NiMesh: 
+NiMorphWeightsController: 
+NiSkinningMeshModifier: 
+NiInstancingMeshModifier: 
+NiSkinningLODController: 
+NiPSParticleSystem: 
+NiPSMeshParticleSystem: 
+NiPSEmitParticlesCtlr: 
+NiPSForceActiveCtlr: 
+NiPSFacingQuadGenerator: 
+NiShadowGenerator: 
+NiPSBoundUpdater: 
+NiPSDragForce: 
+NiPSGravityForce: 
+NiPSBoxEmitter: 
+NiPSMeshEmitter: 
+NiPSGravityStrengthCtlr: 
+NiPSPlanarCollider: 
+NiPSEmitterSpeedCtlr: 
+NiPSEmitterRadiusCtlr: 
+NiPSResetOnLoopCtlr: 
+NiPSSphereEmitter: 
+NiPSCylinderEmitter: 
+NiPSEmitterDeclinationCtlr: 
+NiPSEmitterDeclinationVarCtlr: 
+NiPSEmitterPlanarAngleCtlr: 
+NiPSEmitterPlanarAngleVarCtlr: 
+NiPSEmitterRotAngleCtlr: 
+NiPSEmitterRotAngleVarCtlr: 
+NiPSEmitterRotSpeedCtlr: 
+NiPSEmitterRotSpeedVarCtlr: 
+NiPSEmitterLifeSpanCtlr: 
+NiPSBombForce: 
+NiPSSphericalCollider: 
+NiPSSpawner: 
+NiSequenceData: 
+NiTransformEvaluator: 
+NiBSplineCompTransformEvaluator: 
+NiMeshHWInstance: 
+NiFurSpringController: 
+CStreamableAssetData: 
+BhkCompressedMeshShapeData: 
+BSSkyShaderProperty: 
+SkyrimEffectShaderFlags1: SESF1_0: 
+SkyrimEffectShaderFlags1: SESF1_1: 
+SkyrimEffectShaderFlags1: SESF1_2: 
+SkyrimEffectShaderFlags1: SESF1_3: 
+SkyrimEffectShaderFlags1: SESF1_5: 
+SkyrimEffectShaderFlags1: SESF1_6: 
+SkyrimEffectShaderFlags1: SESF1_7: 
+SkyrimEffectShaderFlags2: SESF2_2: 
+SkyrimEffectShaderFlags2: SESF2_3: 
+SkyrimEffectShaderFlags2: SESF2_4: 
+SkyrimEffectShaderFlags2: SESF2_5: 
+SkyrimEffectShaderFlags2: SESF2_6: 
+SkyrimEffectShaderFlags2: SESF2_7: 
+SkyrimLightingShaderFlags1: SLSF1_2: 
+SkyrimLightingShaderFlags1: SLSF1_3: 
+SkyrimLightingShaderFlags1: SLSF1_4: 
+SkyrimLightingShaderFlags1: SLSF1_5: 
+SkyrimLightingShaderFlags1: SLSF1_6: 
+SkyrimLightingShaderFlags1: SLSF1_8: 
+SkyrimLightingShaderFlags1: SLSF1_10: 
+SkyrimLightingShaderFlags1: SLSF1_11: 
+SkyrimLightingShaderFlags1: SLSF1_13: 
+SkyrimLightingShaderFlags1: SLSF1_14: 
+SkyrimLightingShaderFlags1: SLSF1_15: 
+SkyrimLightingShaderFlags1: SLSF1_16: 
+SkyrimLightingShaderFlags1: SLSF1_18: 
+SkyrimLightingShaderFlags1: SLSF1_19: 
+SkyrimLightingShaderFlags1: SLSF1_20: 
+SkyrimLightingShaderFlags1: SLSF1_21: 
+SkyrimLightingShaderFlags1: SLSF1_22: 
+SkyrimLightingShaderFlags1: SLSF1_23: 
+SkyrimLightingShaderFlags1: SLSF1_24: 
+SkyrimLightingShaderFlags1: SLSF1_25: 
+SkyrimLightingShaderFlags1: SLSF1_26: 
+SkyrimLightingShaderFlags1: SLSF1_27: 
+SkyrimLightingShaderFlags1: SLSF1_28: 
+SkyrimLightingShaderFlags1: SLSF1_29: 
+SkyrimLightingShaderFlags1: SLSF1_30: 
+SkyrimLightingShaderFlags2: SLSF2_1: 
+SkyrimLightingShaderFlags2: SLSF2_2: 
+SkyrimLightingShaderFlags2: SLSF2_3: 
+SkyrimLightingShaderFlags2: SLSF2_7: 
+SkyrimLightingShaderFlags2: SLSF2_8: 
+SkyrimLightingShaderFlags2: SLSF2_9: 
+SkyrimLightingShaderFlags2: SLSF2_10: 
+SkyrimLightingShaderFlags2: SLSF2_11: 
+SkyrimLightingShaderFlags2: SLSF2_12: 
+SkyrimLightingShaderFlags2: SLSF2_13: 
+SkyrimLightingShaderFlags2: SLSF2_14: 
+SkyrimLightingShaderFlags2: SLSF2_15: 
+SkyrimLightingShaderFlags2: SLSF2_17: 
+SkyrimLightingShaderFlags2: SLSF2_18: 
+SkyrimLightingShaderFlags2: SLSF2_19: 
+SkyrimLightingShaderFlags2: SLSF2_20: 
+SkyrimLightingShaderFlags2: SLSF2_21: 
+SkyrimLightingShaderFlags2: SLSF2_22: 
+SkyrimLightingShaderFlags2: SLSF2_23: 
+SkyrimLightingShaderFlags2: SLSF2_28: 
+SkyrimLightingShaderFlags2: SLSF2_30: 
+SkyrimLightingShaderFlags2: SLSF2_31: 
+DataStreamAccess: CPU_READ: 
+DataStreamAccess: CPU_WRITE_STATIC: 
+DataStreamAccess: CPU_WRITE_MUTABLE: 
+DataStreamAccess: CPU_WRITE_VOLATILE: 
+DataStreamAccess: GPU_READ: 
+DataStreamAccess: GPU_WRITE: 
+DataStreamAccess: CPU_WRITE_STATIC_INITITIALIZED: 
+Header: copyright: 
+Header: exportInfo: 
+RagdollDescriptor: motor: 
+LimitedHingeDescriptor: motor: 
+ArkTexture: textureName: 
+ArkTexture: unknownInt3: 
+ArkTexture: unknownInt4: 
+ArkTexture: texturingProperty: 
+ArkTexture: unknownBytes: 
+InertiaMatrix: m11: 
+InertiaMatrix: m12: 
+InertiaMatrix: m13: 
+InertiaMatrix: m21: 
+InertiaMatrix: m22: 
+InertiaMatrix: m23: 
+InertiaMatrix: m31: 
+InertiaMatrix: m32: 
+InertiaMatrix: m33: 
+BSPackedAdditionalDataBlock: unknownInt1: 
+Region: startIndex: 
+Region: numIndices: 
+MeshData: numComponents: 
+ExtraMeshDataEpicMickey: unknownInt1: 
+ExtraMeshDataEpicMickey: unknownInt2: 
+ExtraMeshDataEpicMickey: unknownInt3: 
+ExtraMeshDataEpicMickey: unknownInt4: 
+ExtraMeshDataEpicMickey: unknownInt5: 
+ExtraMeshDataEpicMickey: unknownInt6: 
+ExtraMeshDataEpicMickey2: start: 
+ExtraMeshDataEpicMickey2: end: 
+ExtraMeshDataEpicMickey2: unknownShorts: 
+StencilAction: ACTION_KEEP: 
+StencilAction: ACTION_ZERO: 
+StencilAction: ACTION_REPLACE: 
+StencilAction: ACTION_INCREMENT: 
+StencilAction: ACTION_DECREMENT: 
+StencilAction: ACTION_INVERT: 
+ForceType: FORCE_PLANAR: 
+ForceType: FORCE_SPHERICAL: 
+ForceType: FORCE_UNKNOWN: 
+ComponentFormat: F_INT8_1: 
+ComponentFormat: F_INT8_2: 
+ComponentFormat: F_INT8_3: 
+ComponentFormat: F_INT8_4: 
+ComponentFormat: F_UINT8_1: 
+ComponentFormat: F_UINT8_2: 
+ComponentFormat: F_UINT8_3: 
+ComponentFormat: F_UINT8_4: 
+ComponentFormat: F_NORMINT8_1: 
+ComponentFormat: F_NORMINT8_2: 
+ComponentFormat: F_NORMINT8_3: 
+ComponentFormat: F_NORMINT8_4: 
+ComponentFormat: F_NORMUINT8_1: 
+ComponentFormat: F_NORMUINT8_2: 
+ComponentFormat: F_NORMUINT8_3: 
+ComponentFormat: F_NORMUINT8_4: 
+ComponentFormat: F_INT16_1: 
+ComponentFormat: F_INT16_2: 
+ComponentFormat: F_INT16_3: 
+ComponentFormat: F_INT16_4: 
+ComponentFormat: F_UINT16_1: 
+ComponentFormat: F_UINT16_2: 
+ComponentFormat: F_UINT16_3: 
+ComponentFormat: F_UINT16_4: 
+ComponentFormat: F_NORMINT16_1: 
+ComponentFormat: F_NORMINT16_2: 
+ComponentFormat: F_NORMINT16_3: 
+ComponentFormat: F_NORMINT16_4: 
+ComponentFormat: F_NORMUINT16_1: 
+ComponentFormat: F_NORMUINT16_2: 
+ComponentFormat: F_NORMUINT16_3: 
+ComponentFormat: F_NORMUINT16_4: 
+ComponentFormat: F_INT32_1: 
+ComponentFormat: F_INT32_2: 
+ComponentFormat: F_INT32_3: 
+ComponentFormat: F_INT32_4: 
+ComponentFormat: F_UINT32_1: 
+ComponentFormat: F_UINT32_2: 
+ComponentFormat: F_UINT32_3: 
+ComponentFormat: F_UINT32_4: 
+ComponentFormat: F_NORMINT32_1: 
+ComponentFormat: F_NORMINT32_2: 
+ComponentFormat: F_NORMINT32_3: 
+ComponentFormat: F_NORMINT32_4: 
+ComponentFormat: F_NORMUINT32_1: 
+ComponentFormat: F_NORMUINT32_2: 
+ComponentFormat: F_NORMUINT32_3: 
+ComponentFormat: F_NORMUINT32_4: 
+ComponentFormat: F_FLOAT16_1: 
+ComponentFormat: F_FLOAT16_2: 
+ComponentFormat: F_FLOAT16_3: 
+ComponentFormat: F_FLOAT16_4: 
+ComponentFormat: F_FLOAT32_1: 
+ComponentFormat: F_FLOAT32_2: 
+ComponentFormat: F_FLOAT32_3: 
+ComponentFormat: F_FLOAT32_4: 
+ComponentFormat: F_UINT_10_10_10_L1: 
+ComponentFormat: F_NORMINT_10_10_10_L1: 
+ComponentFormat: F_NORMINT_11_11_10: 
+ComponentFormat: F_NORMUINT8_4_BGRA: 
+ComponentFormat: F_NORMINT_10_10_10_2: 
+ComponentFormat: F_UINT_10_10_10_2: 
+DataStreamUsage: USAGE_VERTEX_INDEX: 
+DataStreamUsage: USAGE_VERTEX: 
+DataStreamUsage: USAGE_SHADER_CONSTANT: 
+DataStreamUsage: USAGE_USER: 
+SkinShapeGroup: Unknown.
+BhkCMSDSomething: Unknown, used in bhkCompressedMeshShapeData
+BhkCMSDData: Unknown, used in bhkCompressedMeshShapeData
+Ni3dsAlphaAnimator: Unknown.
+Ni3dsAnimationNode: Unknown. Only found in 2.3 nifs.
+Ni3dsColorAnimator: Unknown!
+Ni3dsMorphShape: Unknown!
+Ni3dsParticleSystem: Unknown!
+Ni3dsPathController: Unknown!
+BhkSimpleShapePhantom: Unknown shape.
+BhkRigidBodyT: Unknown.
+BhkMultiSphereShape: Unknown.
+NiFloatInterpolator: Unknown.
+NiPoint3Interpolator: Unknown.
+NiPathInterpolator: Unknown interpolator.
+NiBoolInterpolator: Unknown.
+NiBoolTimelineInterpolator: Unknown.
+BhkBlendCollisionObject: Unknown.
+BhkPCollisionObject: Unknown.
+BhkSPCollisionObject: Unknown.
+NiTransparentProperty: Unknown
+NiMultiTargetTransformController: Unknown.
+NiMorphController: Unknown! Used by Daoc->'healing.nif'.
+NiMorpherController: Unknown! Used by Daoc.
+NiPSysModifierActiveCtlr: Unknown.
+NiPSysEmitterDeclinationCtlr: Unknown.
+NiPSysEmitterDeclinationVarCtlr: Unknown.
+NiPSysEmitterInitialRadiusCtlr: Unknown.
+NiPSysEmitterLifeSpanCtlr: Unknown.
+NiPSysEmitterSpeedCtlr: Unknown.
+NiPSysGravityStrengthCtlr: Unknown.
+NiLightDimmerController: Unknown controller.
+NiFloatExtraDataController: Unknown.
+BhkBlendController: Unknown. Is apparently only used in skeleton.nif files.
+BSFurnitureMarker: Unknown. Marks furniture sitting positions?
+NiBlendTransformInterpolator: Unknown.
+NiBSplineFloatInterpolator: Unknown.
+NiBSplineCompFloatInterpolator: Unknown.
+NiBSplinePoint3Interpolator: Unknown.
+NiBSplineCompPoint3Interpolator: Unknown.
+NiColorExtraData: Unknown.
+NiControllerManager: Unknown. Root of all controllers?
+NiAVObjectPalette: Unknown.
+NiDefaultAVObjectPalette: Unknown. Refers to a list of objects. Used by NiControllerManager.
+NiDitherProperty: Unknown.
+NiRollController: Unknown.
+NiFloatsExtraData: Unknown.
+NiLookAtController: Unknown. Start time is 3.4e+38 and stop time is -3.4e+38.
+NiLookAtInterpolator: Unknown.
+FxButton: Unknown.
+FxRadioButton: Unknown.
+NiBSParticleNode: Unknown.
+NiParticleColorModifier: Unknown.
+NiParticleMeshModifier: Unknown.
+NiParticleRotation: Unknown.
+NiAutoNormalParticles: Unknown.
+NiPlanarCollider: Unknown.
+NiPSysAgeDeathModifier: Unknown particle modifier.
+NiPSysBoundUpdateModifier: Unknown particle system modifier.
+NiPSysDragModifier: Unknown.
+NiPSysMeshUpdateModifier: Unknown.
+NiPSysPositionModifier: Unknown particle system modifier.
+NiPSysResetOnLoopCtlr: Unknown.
+NiPSysSpawnModifier: Unknown particle modifier.
+NiLightIntensityController: Unknown controller
+NiRotatingParticles: Unknown.
+NiSphericalCollider: Unknown.
+NiTextureModeProperty: Unknown
+NiEnvMappedTriShape: Unknown
+NiBezierMesh: Unknown
+NiWireframeProperty: Unknown.
+NiSortAdjustNode: Unknown node.  Found in Loki.
+NiSourceCubeMap: Unknown node.  Found in Emerge Demo.
+NiPhysXProp: Unknown PhysX node.
+NiPhysXPropDesc: Unknown PhysX node.
+NiPhysXActorDesc: Unknown PhysX node.
+NiPhysXBodyDesc: Unknown PhysX node.
+NiPhysXD6JointDesc: Unknown PhysX node.
+NiPhysXShapeDesc: Unknown PhysX node.
+NiPhysXMeshDesc: Unknown PhysX node.
+NiPhysXMaterialDesc: Unknown node.
+NiPhysXKinematicSrc: Unknown PhysX node.
+NiPhysXTransformDest: Unknown PhysX node.
+NiArkAnimationExtraData: Unknown node.
+NiArkImporterExtraData: Unknown node.
+NiArkTextureExtraData: Unknown node.
+NiArkViewportInfoExtraData: Unknown node.
+NiArkShaderExtraData: Unknown node.
+BSBehaviorGraphExtraData: Links a nif with a Havok Behavior .hkx animation file
+            Unknown. Links to a hkx file.
+BSShaderFlags: SF_UNKNOWN_1: Unknown
+BSShaderFlags: SF_EMPTY: Unknown
+BSShaderFlags: SF_UNKNOWN_2: Unknown
+BSShaderFlags: SF_UNKNOWN_3: Unknown/Crash
+BSShaderFlags: SF_UNKNOWN_4: Unknown/Crash
+LODRange: unknownInts: Unknown (0,0,0).
+ControllerLink: controller: Unknown link. Usually -1.
+ControllerLink: unknownLink2: Unknown.
+ControllerLink: unknownShort0: Unknown.
+ExportInfo: exportInfo1: Unknown. Can be something like 'TriStrip Process Script'.
+ExportInfo: exportInfo2: Unknown. Possibly the selected option of the export script. Can be something like 'Default Export Script'.
+Header: unknownInt3: Unknown. Possibly User Version 2?
+Header: unknownInt2: Unknown.
+TexDesc: unknownshort: Unknown, seems to always be 1
+TexDesc: unknown1: Unknown, 0 or 0x0101?
+TexSource: unknownLink: Unknown.
+TexSource: unknownByte: Unknown.
+SkinPartition: unknownShort: Unknown
+FurniturePosition: unknownShort1: Unknown
+FurniturePosition: unknownShort2: Unknown
+Morph: unknownInt: Unknown.
+Particle: unknownVector: Unknown
+Particle: unknownShort: Unknown short
+SkinData: unknown13Shorts: Unknown, always 0?
+OblivionColFilter: unknownShort: Unknown.
+OblivionSubShape: unknownShort: Unknown. Perhaps the vertex wielding type?
+MotorDescriptor: unknownFloat1: Unknown
+MotorDescriptor: unknownFloat2: Unknown
+MotorDescriptor: unknownFloat3: Unknown
+MotorDescriptor: unknownFloat4: Unknown
+MotorDescriptor: unknownFloat5: Unknown
+MotorDescriptor: unknownFloat6: Unknown
+MotorDescriptor: unknownByte1: Unknown
+RagdollDescriptor: enableMotor: Unknown
+LimitedHingeDescriptor: enableMotor: Unknown
+OldSkinData: unknownVector: Unknown.  Perhaps some sort of offset?
+MultiTextureElement: unknownShort3: Unknown.  Usually 0 but sometimes 257
+CapsuleBV: unknownFloat1: Unknown.
+CapsuleBV: unknownFloat2: Unknown.
+ParticleDesc: translation: Unknown.
+ParticleDesc: unknownFloats1: Unknown.
+ParticleDesc: unknownFloat1: Unknown.
+ParticleDesc: unknownFloat2: Unknown.
+ParticleDesc: unknownFloat3: Unknown.
+ParticleDesc: unknownInt1: Unknown.
+ChannelData: unknownByte1: Unknown
+PhysXMaterialRef: number: Unknown
+PhysXMaterialRef: unknownByte1: Unknown
+BSSegmentedTriangle: unknownInt1: Unknown
+BSSegmentedTriangle: unknownInt2: Unknown
+BSSegmentedTriangle: unknownByte1: Unknown
+AdditionalDataInfo: unknownByte1: Unknown, usually equal to 2.
+AdditionalDataBlock: numBlocks: Unknown
+AdditionalDataBlock: blockOffsets: Unknown
+AdditionalDataBlock: numData: Unknown
+AdditionalDataBlock: dataSizes: Unknown
+AdditionalDataBlock: data: Unknown
+BSPackedAdditionalDataBlock: data: Unknown
+BhkCMSDSomething: largeInt: Unknown
+BhkCMSDShape: numShape: Unknown
+BhkCMSDShape: shape: Unknown
+BhkCMSDContainer: unknownFloats: Unknown
+BhkCMSDContainer: unknownInt: Unknown
+BhkCMSDContainer: unknownShort1: Unknown
+BhkCMSDContainer: unknownShort2: Unknown
+BhkCMSDContainer: shape: Unknown
+BhkCMSDData: unknownFloats1: Unknown
+BhkCMSDData: unknownInt1: Unknown
+ApplyMode: APPLY_HILIGHT: PS2 Only.  Function Unknown.
+TexType: UNKNOWN2_MAP: Unknown map.
+ComponentFormat: F_UNKNOWN: Unknown, or don't care, format.
+BlockTypeIndex: A 16-bit (signed?) integer, which is used in the header to refer to a particular object type in a object type string array.
+        The upper bit appears to be a flag used for PhysX block types.
+DataStreamAccess: Determines how the data stream is accessed?
+FurniturePosition: Describes a furniture position?
+MotionQuality: The motion type. Determines quality of motion?
+ForceType: The type of force?  May be more valid values.
+DataStreamUsage: Determines how a data stream is used?
+BhkSerializable: Havok objects that can be saved and loaded from disk?
+BhkWorldObject: Havok objects that have a position in the world?
+BhkShape: A Havok Shape?
+BhkSphereRepShape: A havok shape, perhaps with a bounding sphere for quick rejection in addition to more detailed shape data?
+BhkConvexTransformShape: A convex transformed shape?
+BhkBvTreeShape: A tree-like Havok data structure stored in an assembly-like binary code?
+BhkShapeCollection: Havok collision object that uses multiple shapes?
+NiKeyBasedInterpolator: Interpolator objects that use keys?
+BhkNiCollisionObject: Havok related collision object?
+BhkCollisionObject: Havok related collision object?
+NiPSysEmitter: A particle emitter?
+NiPSysVolumeEmitter: An emitter that emits meshes?
+NiInterpController: A controller capable of interpolation?
+NiPSysModifierBoolCtlr: A particle system modifier controller that deals with boolean data?
+NiPSysModifierFloatCtlr: A particle system modifier controller that deals with floating point data?
+NiFloatInterpController: A controller that interpolates floating point numbers?
+NiBoolInterpController: A controller that interpolates floating point numbers?
+NiPoint3InterpController: A controller that interpolates point 3 data?
+HkPackedNiTriStripsData: NiTriStripsData for havok data?
+NiAutoNormalParticlesData: Particle system data object (with automatic normals?).
+NiBlendPoint3Interpolator: Interpolates a point?
+NiFogProperty: Describes... fog?
+BSXFlags: Controls animation and collision.  Integer holds flags:
+        Bit 0 : enable havok
+        Bit 1 : enable collision
+        Bit 2 : is skeleton nif?
+        Bit 3 : enable animation
+        Bit 4 : FlameNodes present
+        Bit 5 : EditorMarkers present
+        Bit 6 : ? (Skyrim)
+        Bit 7 : ? (Skyrim)
+NiBone: A NiNode used as a skeleton bone?
+AvoidNode: Morrowind specific?
+FxWidget: Firaxis-specific UI widgets?
+NiBSAnimationNode: Bethesda-specific extension of Node with animation properties stored in the flags, often 42?
+NiSwitchNode: A node used to switch between branches, such as for LOD levels?
+NiParticleMeshes: Mesh particle node?
+NiPSysUpdateCtlr: Particle system controller, used for ???.
+NiScreenLODData: Describes levels of detail based on size of object on screen?
+WaterShaderProperty: Bethesda-specific node? Found in Fallout3
+SkyShaderProperty: Bethesda-specific node? Found in Fallout3
+BSDecalPlacementVectorExtraData: Bethesda-specific node. (for dynamic decal projection?)
+BSStripParticleSystem: Bethesda-Specific (mesh?) Particle System.
+BSStripPSysData: Bethesda-Specific (mesh?) Particle System Data.
+BSPSysStripUpdateModifier: Bethesda-Specific (mesh?) Particle System Modifier.
+BSPSysMultiTargetEmitterCtlr: Particle system (multi?) emitter controller.
+BSTreeNode: Node for handling Trees, Switches branch configurations for variation?
+10.0.1.3: ?
+SkyrimEffectShaderFlags2: SESF2_TEXTURE_TRANSFORM_U: Has Texture Transform (U?)
+SkyrimEffectShaderFlags2: SESF2_TEXTURE_TRANSFORM_V: Has Texture Transform (V?)
+SkyrimLightingShaderFlags2: SLSF2_VERTEX_COLOR: Has Vertex Colors (Maybe, could be Vertex Alpha?)
+SkinShape: skinInstance: Skinning instance for the shape?
+ExportInfo: creator: Could be the name of the creator of the NIF file?
+Header: blockSize: Array of block sizes?
+NskeyvecarrayFloat: keys: Another type of linear key?
+TexDesc: translation: The amount to translate the texture coordinates in each direction?
+TexDesc: tiling: The number of times the texture is tiled in each direction?
+TexDesc: transformType?: The texture transform type?  Doesn't seem to do anything.
+TexDesc: centerOffset: The offset from the origin?
+ShaderTexDesc: isUsed: Is it used?
+TexSource: useExternal: Is the texture external?
+SkinPartition: hasVertexMap: Do we have a vertex map?
+SkinPartition: hasVertexWeights: Do we have vertex weights?
+SkinPartition: hasFaces: Do we have triangle or strip data?
+SkinPartition: hasBoneIndices: Do we have bone indices?
+MultiTextureElement: pS2L: 0?
+MultiTextureElement: pS2K: -75?
+BSTreadTransform: name: Name of affected node?
+AdditionalDataInfo: blockIndex: Unsure. The block in which this channel is stored? Usually there is only one block, and so this is zero.
+BSPackedAdditionalDataBlock: numBlocks: Number of blocks? Usually equal to one.
+BSPackedAdditionalDataBlock: blockOffsets: Block offsets in the data? Usually equal to zero.
+BSPackedAdditionalDataBlock: numAtoms: Number of atoms?
+MaterialData: materialExtraData: Extra data associated with the material?
+BhkCMSDSomething: unknownInteger: Always 1?
+OblivionLayer: OL_UNKNOWN1: ? (white)
+OblivionLayer: OL_UNKNOWN2: ? (white)
+OblivionLayer: OL_BACK_WEAPON2: BackWeapon (?)
+BillboardMode: ROTATE_ABOUT_UP2: The billboard will only rotate around the up axis (same as ROTATE_ABOUT_UP?).
+FaceDrawMode: DRAW_CCW_OR_BOTH: use application defaults?
+FaceDrawMode: DRAW_CCW: Draw counter clock wise faces, cull clock wise faces. This is the default for most (all?) Nif Games so far.
+VelocityType: VELOCITY_USE_DIRECTION: Uses the emission axis to determine initial particle direction?
+EmitFrom: EMIT_FROM_FACE_SURFACE: Perhaps randomly emit particles from anywhere on the faces of the mesh?
+EmitFrom: EMIT_FROM_EDGE_SURFACE: Perhaps randomly emit particles from anywhere on the edges of the mesh?
+Nskeyvecarray: keys: Another type of linear key?

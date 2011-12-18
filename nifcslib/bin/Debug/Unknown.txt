@@ -1,4 +1,6 @@
 SkinShapeGroup: Unknown.
+BhkCMSDSomething: Unknown, used in bhkCompressedMeshShapeData
+BhkCMSDData: Unknown, used in bhkCompressedMeshShapeData
 Ni3dsAlphaAnimator: Unknown.
 Ni3dsAnimationNode: Unknown. Only found in 2.3 nifs.
 Ni3dsColorAnimator: Unknown!
@@ -84,13 +86,13 @@ NiArkImporterExtraData: Unknown node.
 NiArkTextureExtraData: Unknown node.
 NiArkViewportInfoExtraData: Unknown node.
 NiArkShaderExtraData: Unknown node.
-BSShaderFlags: SF_UNKNOWN_6: Unknown\Light fade? (if 0 and envmap is on, "envmap light fade" is not present)
-BSShaderFlags: SF_UNKNOWN_17: Unknown/Crash
-BSShaderFlags: SF_UNKNOWN_19: Unknown/Crash
-BSShaderFlags: SF_UNKNOWN_22: Unknown (Always 0?)
-BSShaderFlags: SF_UNKNOWN_23: Unknown (usually 1)
-BSShaderFlags: SF_UNKNOWN_27: Unknown (Always 0?)
-BSShaderFlags: SF_UNKNOWN_31: Unknown
+BSBehaviorGraphExtraData: Links a nif with a Havok Behavior .hkx animation file
+            Unknown. Links to a hkx file.
+BSShaderFlags: SF_UNKNOWN_1: Unknown
+BSShaderFlags: SF_EMPTY: Unknown
+BSShaderFlags: SF_UNKNOWN_2: Unknown
+BSShaderFlags: SF_UNKNOWN_3: Unknown/Crash
+BSShaderFlags: SF_UNKNOWN_4: Unknown/Crash
 LODRange: unknownInts: Unknown (0,0,0).
 ControllerLink: controller: Unknown link. Usually -1.
 ControllerLink: unknownLink2: Unknown.
@@ -103,6 +105,9 @@ TexDesc: unknownshort: Unknown, seems to always be 1
 TexDesc: unknown1: Unknown, 0 or 0x0101?
 TexSource: unknownLink: Unknown.
 TexSource: unknownByte: Unknown.
+SkinPartition: unknownShort: Unknown
+FurniturePosition: unknownShort1: Unknown
+FurniturePosition: unknownShort2: Unknown
 Morph: unknownInt: Unknown.
 Morph: unknownInt: Unknown.
 Particle: unknownVector: Unknown
@@ -132,15 +137,6 @@ ParticleDesc: unknownInt1: Unknown.
 ChannelData: unknownByte1: Unknown
 PhysXMaterialRef: number: Unknown
 PhysXMaterialRef: unknownByte1: Unknown
-BSTreadTransfSubInfo: unknownInt1: Unknown
-BSTreadTransfSubInfo: unknownInt2: Unknown
-BSTreadTransfSubInfo: unknownInt3: Unknown
-BSTreadTransfSubInfo: unknownInt4: Unknown
-BSTreadTransfSubInfo: unknownInt5: Unknown
-BSTreadTransfSubInfo: unknownInt6: Unknown
-BSTreadTransfSubInfo: unknownInt7: Unknown
-BSTreadTransfSubInfo: unknownInt8: Unknown
-BSTreadTransfInfo: unknownFloat1: Unknown Flag
 BSSegmentedTriangle: unknownInt1: Unknown
 BSSegmentedTriangle: unknownInt2: Unknown
 BSSegmentedTriangle: unknownByte1: Unknown
@@ -151,6 +147,16 @@ AdditionalDataBlock: numData: Unknown
 AdditionalDataBlock: dataSizes: Unknown
 AdditionalDataBlock: data: Unknown
 BSPackedAdditionalDataBlock: data: Unknown
+BhkCMSDSomething: largeInt: Unknown
+BhkCMSDShape: numShape: Unknown
+BhkCMSDShape: shape: Unknown
+BhkCMSDContainer: unknownFloats: Unknown
+BhkCMSDContainer: unknownInt: Unknown
+BhkCMSDContainer: unknownShort1: Unknown
+BhkCMSDContainer: unknownShort2: Unknown
+BhkCMSDContainer: shape: Unknown
+BhkCMSDData: unknownFloats1: Unknown
+BhkCMSDData: unknownInt1: Unknown
 ApplyMode: APPLY_HILIGHT: PS2 Only.  Function Unknown.
 TexType: UNKNOWN2_MAP: Unknown map.
 ComponentFormat: F_UNKNOWN: Unknown, or don't care, format.
